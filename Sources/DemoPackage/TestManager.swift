@@ -10,7 +10,7 @@ import Foundation
 public class TestManager {
     static public let shared = TestManager()
     
-    func log() {
+   public func log() {
         print("connected")
     }
 }
